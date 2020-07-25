@@ -1,11 +1,11 @@
-.dataTables_wrapper .dataTables_length,
+/* .dataTables_wrapper .dataTables_length,
 .dataTables_info,
-/* .nav-tabs .nav-link.active, */
+.nav-tabs .nav-link.active,
 .dataTables_length select {
   color: var(--color-table-tx) !important;
   border-color: var(--color-border-main) !important;
   background-color: var(--color-bg-container);
-}
+} */
 
 .marine-icons {
   width: 70%;
@@ -34,3 +34,16 @@
     .dataTables_wrapper .dataTables_paginate .paginate_button {
       font-size: 10px;
     }
+.icon{
+  max-width: 75%!important;
+}
+.icon-btn{
+  width: 50px;
+  height: 50px;
+  border: 2px solid #707070;
+  background: red;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  transition: width 0.2s ease-in-out;
+}

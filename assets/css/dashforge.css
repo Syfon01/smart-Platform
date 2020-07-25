@@ -12853,7 +12853,7 @@ textarea.parsley-success:focus {
       stroke-width: 2.8px; }
 
 .content-search {
-  width: 250px;
+  width: 80%;
   display: flex;
   align-items: center; }
   .content-search svg {
