@@ -1,0 +1,8 @@
+.dataTables_wrapper .dataTables_length,
+.dataTables_info,
+.nav-tabs .nav-link.active,
+.dataTables_length select {
+  color: var(--color-table-tx) !important;
+  border-color: var(--color-border-main) !important;
+  background-color: var(--color-bg-container);
+}

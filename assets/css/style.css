@@ -1,0 +1,36 @@
+.dataTables_wrapper .dataTables_length,
+.dataTables_info,
+/* .nav-tabs .nav-link.active, */
+.dataTables_length select {
+  color: var(--color-table-tx) !important;
+  border-color: var(--color-border-main) !important;
+  background-color: var(--color-bg-container);
+}
+
+.marine-icons {
+  width: 70%;
+
+}
+
+    .marine-active-menu {
+      font-weight: bold;
+    }
+
+    .marine-tab-text {
+      font-size: 13px;
+    }
+
+    .marine-borders {
+      border-radius: 5px;
+      box-shadow: 0 8px 6px -6px #ddd;
+      Submitpadding-bottom: 10px;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button.previous,
+    .dataTables_wrapper .dataTables_paginate .paginate_button.next,
+    .dataTables_paginate .paginate_button.current,
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current:focus,
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+      font-size: 10px;
+    }
