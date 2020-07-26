@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="SPMP - Smart Process Management Platform">
     <title>SPMP - Smart Process Management Platform</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
 
     <!-- Required External CSS -->
     <link href="assets/lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -35,31 +37,6 @@
     <div class="content content-fixed content-auth">
       <div class="container">
         <div class="media align-items-stretch justify-content-center ht-100p pos-relative">
-          <div class="sign-wrapper mg-t-100">
-            <div class="wd-100p p-4 bg-white rounded-5 signin-holder">
-              <h3 class="tx-color-01 mg-b-5">Welcome Back</h3>
-              <p class="tx-color-03 tx-12 mg-b-20">Please login to your account</p>
-          
-              <div class="form-group mg-b-2">
-                <label>Email address</label>
-                <input type="email" class="form-control" placeholder="yourname@yourmail.com">
-              </div>
-              <div class="form-group mg-b-5">
-                <div class="d-flex justify-content-between mg-b-5">
-                  <label class="mg-b-0-f">Password</label>
-                </div>
-                <input type="password" class="form-control" placeholder="Enter your password">
-              </div>
-              <div class="d-flex justify-content-between mg-b-40 mg-t-0">
-              <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="customCheck1">
-                <label class="custom-control-label tx-12" for="customCheck1">Remember Me</label>
-              </div>
-                <a href="" class="tx-12">Forgot password?</a>
-              </div>
-              <button class="btn btn-brand-uba-dark btn-block">Sign In</button>
-            </div>
-          </div><!-- sign-wrapper -->
           
           <div class="media-body align-items-center d-none d-lg-flex p-5 mg-t-100">
             <div class="b-0 l-0 tx-12 tx-left tx-white">
@@ -69,6 +46,28 @@
             </div>
           </div>
           <!-- media-body -->
+
+          <div class="sign-wrapper mg-t-100">
+            <div class="wd-100p p-4 bg-login rounded-5">
+              <h5 class="tx-bold mg-b-5 ">Welcome</h5>
+              <p class="tx-color-03 tx-12 mg-b-20">Please login to your account</p>
+
+              <div class="form-group mg-b-2">
+                <input type="email" class="form-control" placeholder="Username">
+              </div>
+              <div class="form-group mg-b-5">
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+              <div class="d-flex justify-content-between mg-b-20 mg-t-0">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label tx-12" for="customCheck1">Remember Me</label>
+                </div>
+                <a href="" class="tx-dark tx-bold">Forgot password?</a>
+              </div>
+              <button class="btn btn-brand-uba-dark btn-block"> <a href="/dashboard.html" class="tx-white">Sign In</a></button>
+            </div>
+          </div><!-- sign-wrapper -->
           
         </div><!-- media -->
       </div><!-- container -->
