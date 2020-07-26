@@ -6,7 +6,9 @@
   border-color: var(--color-border-main) !important;
   background-color: var(--color-bg-container);
 } */
-
+.content-body{
+  background-color: #FAFAFA;
+}
 .marine-icons {
   width: 70%;
 
