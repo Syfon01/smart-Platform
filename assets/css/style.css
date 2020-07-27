@@ -111,3 +111,15 @@ input:checked+.slider:before {
 .my-table{
   width: 100%!important;
 }
+.fix-form{
+  width: 20%!important;
+  height: calc(1.4em + 0.79rem + 1px);
+}
+.small-svg{
+  width: 18px;
+  height: 18px;
+  margin-top: 5px;
+}
+.paginate > .page-item > .page-link{
+  color: #B2B2B2 !important;
+}
