@@ -172,12 +172,13 @@ svg {
 {
     background: linear-gradient(rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.3)),
-    url(../img/bgg.jpg),
-    no-repeat center center fixed !important;
+    url(../img/bgg.jpg) center center fixed !important;
     -webkit-background-size: cover !important;
     -moz-background-size: cover !important;
     -o-background-size: cover !important;
     background-size: cover !important;
+    background-repeat: no-repeat!important;
+    height:100vh!important
 }
 .app-title {
     line-height: 12px;
@@ -608,7 +609,7 @@ input:checked+.slider:before {
 }
 @media (min-width: 992px){
   .pad-large{
-    padding-top: 100px;
+    padding-top: 150px;
   }
 }
 .tx-hover:hover{
