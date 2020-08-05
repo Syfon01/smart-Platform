@@ -609,7 +609,7 @@ input:checked+.slider:before {
 }
 @media (min-width: 992px){
   .pad-large{
-    padding-top: 150px;
+    padding-top: 175px;
   }
 }
 .tx-hover:hover{
