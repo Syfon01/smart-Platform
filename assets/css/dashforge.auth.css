@@ -46,3 +46,8 @@
   .bg-login{
     background-color: #E8E8EA;
   }
+  @media (min-width: 1600px) {
+    .container{
+      max-width: 1360px!important;
+    }
+  }
