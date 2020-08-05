@@ -607,10 +607,15 @@ input:checked+.slider:before {
 .tab-body{
     border: none!important;
 }
-@media (min-width: 992px){
+@media (min-width: 992px) and (max-width: 1499.98px) {
   .pad-large{
-    padding-top: 175px;
+    padding-top: 11.1rem;
   }
+}
+@media (min-width: 1500px){
+    .pad-large {
+        padding-top: 16.9rem;
+    }
 }
 .tx-hover:hover{
     color:#fff;
